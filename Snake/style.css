@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(163, 241, 255);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .grid {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    background-color: rgb(59, 230, 70);
+  }
+  
+  button{
+    background-color: rgb(190, 190, 190);
+  }
+  
+  .score{
+    padding: 10px 10px 10px 0;
+  }
+
+  .grid div {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .snake {
+    background-color: rgb(75, 50, 250);
+  }
+  
+  .apple {
+    background-color: rgb(220, 30, 30);
+  }
